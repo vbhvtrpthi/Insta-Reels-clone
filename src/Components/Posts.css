@@ -1,0 +1,89 @@
+.video-container{
+    height: 80vh;
+    border-radius: 20px;
+    background-color: white;
+    /* overflow scroll sey sidebar hatkey video me aa jayegi */
+    overflow:scroll; 
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; 
+}
+
+/* For those browsers where 'scrollbar-width: none;' is not supported */
+.video-container::-webkit-scrollbar{
+    display: none;
+}
+
+.videos{
+    position: relative;
+}
+.fa{
+    position: absolute;
+    bottom: 10%;
+    left:10%
+}
+.fa h4{
+    margin: 0;
+    color: white;
+    margin-top: 8%;
+    /* margin-left: 20%; */
+}
+
+.icon-styling{
+    position: absolute;
+    bottom: 2%;
+    left:13%;
+}
+
+.like{
+    cursor: pointer;
+    color:#e74c3c;
+}
+.unlike{
+    cursor: pointer;
+    color:white;
+}
+
+.chat-styling{
+    position: absolute;
+    bottom: 2%;
+    left:25%;
+    color: white;
+}
+
+.modal-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.video-modal{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-video{
+    height: 100%;
+    width: 100%;
+}
+
+.video-modal video{
+    height:86vh;
+    /* width: 20vw; */
+}
+.comment-modal{
+    width:48%;
+    height:100%
+}
+.unlike2{
+    color: black;
+    cursor: pointer;
+}
+.card1{
+    height: 70vh;
+}
+
+
+
